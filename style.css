@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background: linear-gradient(to right, rgb(104, 15, 219), rgb(168, 200, 255));
+
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    margin: 30px;
+    margin-right: 70px;
+}
+section a{
+    text-decoration: none;
+    color: #fff;
+}
+/* first card */
+.card1{
+    margin-top: 60px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 70px;
+}
+.card1 h5{
+    letter-spacing: 5px;
+    color: rgb(168, 164, 164);
+    margin: 30px;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.left{
+    border-radius: 50%;
+    border: 2rem solid rgb(199, 194, 194);
+    margin: 5px 15px;
+}
+.right{
+    font-size: 15px;
+    margin: 5px px;
+    width: 400px;
+}
+.right p{
+    color: rgb(104, 15, 219);
+}
+.right hr{
+    margin: 5px 0px;
+}
+.button1{
+    bottom: 30px;
+    margin-left: 170px;
+    position: absolute;
+
+}
+.button1 a{
+    background: rgb(104, 15, 219);
+    padding: 10px;
+    border-radius: 20px;
+}
+.button1 a:hover{
+    background: rgb(168, 200, 255);
+    color: #000;
+}
+/* first card ends */
+
+/* second card begins */
+.card2{
+    margin-top: 200px;
+}
+.card2 h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.button2{
+    margin-left: 270px;
+    margin-top: 100px;
+}
+
+.button2 a{
+    background: rgb(104, 15, 219);
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-size: 30px;
+    box-shadow: -20px 20px 15px -5px rgb(115, 40, 255);
+}
+.button2 a:hover{
+    background: rgb(168, 200, 255);
+    color: #000;
+}
+/* second card ends */
+/* media query */
+    @media screen and (min-width: 600px){
+        .flex-container {
+        display:flex;
+    }
+}
